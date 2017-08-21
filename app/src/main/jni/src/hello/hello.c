@@ -11,6 +11,5 @@
  */
 JNIEXPORT jstring JNICALL
 Java_com_law_jnimakefile_jni_Hello_sayHello(JNIEnv *jniEnv, jclass jclazz) {
-    jstring jstr = "hello";
-    return (*jniEnv)->NewStringUTF(jniEnv, "Hlloo");
+    return (*jniEnv)->NewStringUTF(jniEnv, "asdasdas");
 }
